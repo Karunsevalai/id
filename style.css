@@ -1,1 +1,319 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+}
+hr{
+   border: 1px solid red;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1,.card2{
+  background-color: red;
+  border: solid red;
+  border-width: 5px 5px 10px 10px;
+  border-radius: 10px;
+}
+.card2{
+  border-width: 5px 10px 10px 5px;
+}
+.card{
+  height: 315px;
+  width: 200px;
+  background-color: greenyellow;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.blood img{
+    width: 13px;
+    color: red;
+}
+.college_name{
+    display: flex;
+    background-color: rgb(18, 18, 150);
+    color: white;
+    width: 90%;
+    height: 30px;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-between;
+    margin: 5px 5px 1px 3px;
+
+}
+.college_name h1{
+    font-size: 25px;
+}
+.college_name p{
+    font-size: 5px;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+.college_name img{
+    height: 20px;
+    border-radius: 50%;
+}
+.logo{
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+}
+.autonomous{
+    display: flex;
+    justify-content: center;
+}
+.autonomous h3{
+    font-size: 11px;
+    background-color: rgb(18, 18, 150);
+    color: white;
+    padding: 3px;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid  rgb(18, 18, 150);
+}
+.college_a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(35, 35, 187);
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+.college_a p{
+    font-size: 7px;
+    font-weight: b;
+}
+.year{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+.year h5{
+    font-size: 10px;
+}
+.image{
+    width: 100%;
+    height: 90px;   
+    position: relative;
+   
+}
+.image .rollNo{
+  position: absolute;
+  left: 18px;
+  top: 20px;
+}
+.image .rollNo h3{
+    text-align: center;
+}
+.image .contact{
+   position: absolute;
+   bottom: 10px;
+   left: 18px;
+
+}
+.image .photo{
+  width: 75px;
+  height: 80px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image .dob{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+}
+.image .dob h3{
+    text-align: center;
+}
+.image .blood{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.image h3{
+    color: red;
+}
+.image p{
+    font-size: 9px;
+}
+.image .contact p{
+    font-size: 8px;
+}
+.mname{
+    display: flex;
+    justify-content: center;
+}
+.mname h1{
+    font-size: 9px;
+}
+.BE{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.bar{
+    width: 100%;
+    height: 25px;
+   ;
+}
+.address h3{
+  color: red;
+  width: 38px;
+  font-size: 9px;
+  border-bottom: 1px solid red;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 4px;
+}
+
+.bar{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+  .bar span{
+    height: 100%;
+    border-left: 1px solid black;
+  }
+  .bar span:nth-child(2){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(4){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(6){
+    border-left: 2px solid black;
+  }
+
+.bar span:nth-child(12){
+  border-left: 2px solid black;
+}
+.bar span:nth-child(14){
+  border-left: 2px solid black;
+}
+.bar span:nth-child(16){
+  border-left: 2px solid black;
+}
+.bar span:nth-child(18){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(24){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(28){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(36){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(46){
+    border-left: 2px solid black;
+  }
+  .bar span:nth-child(49){
+    border-left: 2px solid black;
+  }
+.card2{
+  background-color: red !important;
+}
+.ca2{
+  position: relative;
+  background-color: greenyellow;
+  z-index: 98;
+  border-radius: 4px;
+}
+.ca2 .ccc{
+  position: absolute;
+  height: 140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index:-1;
+}
+.cc{
+  background-color: rgba(173, 255, 47,0.6);
+  border-radius: 4px;
+  z-index: 99;
+}
+.fimage img{
+  width: 100%;
+  height: 78px;
+  z-index: 100;
+  margin-top: 14px;
+}
+.head{
+  color: white;
+  background-color: rgb(18, 18, 150);
+}
+.card2 .content{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card2 .content h3{
+  font-size: 12px;
+}
+.card2 .foot{
+  margin-top: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(18, 18, 150);
+  color: white;
+  position: absolute;
+  width: 98.5%;
+  bottom: 2px;
+}
+.cc{
+  padding: 1px;
+}
+
+
+
+
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
